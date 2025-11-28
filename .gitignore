@@ -42,7 +42,7 @@ lcov-report/
 *.objdump
 
 # Build directories
-/build/
+**/build/
 build-*/
 bin/
 out/
