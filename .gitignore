@@ -1,0 +1,143 @@
+# Generic build / binary files
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.i
+*.ii
+*.lst
+*.class
+
+# Compiled debug / profile files
+*.ilk
+*.pdb
+*.ipdb
+*.dSYM/
+*.prof
+*.profraw
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Static analysis / coverage
+*.gcno
+*.gcda
+*.gcov
+coverage/
+lcov-report/
+
+# Linker / compiler generated files
+*.cmd
+*.mod
+*.objdump
+
+# Build directories
+/build/
+build-*/
+bin/
+out/
+dist/
+*.dir/
+cmake-build-*/
+debug/
+release/
+Release/
+Debug/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+
+# Autotools
+autom4te.cache/
+config.log
+config.status
+
+# Qt / Qt Creator
+*.pro.user*
+*.qmake.stash
+*.qrc
+moc_*.cpp
+ui_*.h
+*.autosave
+
+# Visual Studio / MSVC
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+*.VC.db
+*.VC.opendb
+
+# Xcode
+*.xcworkspace
+*.xcuserdata
+*.xcuserstate
+*.pbxuser
+*.mode1v3
+*.mode2v3
+DerivedData/
+
+# JetBrains (CLion, IntelliJ)
+.idea/
+*.iml
+cmake-build-*/
+
+# Editors / OS
+*~
+.*.swp
+*.swo
+*.kate-swp
+# temporary files
+*.tmp
+*.temp
+Thumbs.db
+.DS_Store
+
+# Package / dependency managers
+conanbuildinfo.*
+conaninfo.txt
+conan.lock
+.conan/
+vcpkg_installed/
+.vcpkg/
+
+# Cache / tooling
+.cache/
+*.cache
+ccache/
+.cquery_cached_index
+clion-cmake-build/
+
+# Generated files (protos, bindings, generated code)
+gen/
+generated/
+*.pb.h
+*.pb.cc
+*.pb.cpp
+
+# Logs
+*.log
+
+# Misc
+tags
+TAGS
+cscope.*
+.idea_modules/
+*.seed
